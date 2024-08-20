@@ -31,27 +31,27 @@ public class Homework1 {
         float f3 = 0xff;
         float f4 = 0b101110;//  1.1  Створити змінні примітивних типів, усіх можливих систем числень для кожного типу.\
 
-        int sumInt = a1+a2+a3+a4;
-        int sumByte = b1+b2+b3+b4;
-        long sumLong = l1+l2+l3+l4;
-        int sumShort = s1+s2+s3+s4;
-        int sumChar = c1+c2+c3+c4;
-        double sumDouble = d1+d2+d3+d4;
-        float sumFloat = f1+f2+f3+f4;
-        long result1 = sumChar +sumByte+sumLong+sumInt+sumShort;
-        double result2 = sumDouble+ sumFloat;
+        int sumInt = a1 + a2 + a3 + a4;
+        int sumByte = b1 + b2 + b3 + b4;
+        long sumLong = l1 + l2 + l3 + l4;
+        int sumShort = s1 + s2 + s3 + s4;
+        int sumChar = c1 + c2 + c3 + c4;
+        double sumDouble = d1 + d2 + d3 + d4;
+        float sumFloat = f1 + f2 + f3 + f4;
+        long result1 = sumChar + sumByte + sumLong + sumInt + sumShort;
+        double result2 = sumDouble + sumFloat;
         //2. Створити нові змінні int sumInt, sumByte, sumDouble, sumLong, sumShort, sumFloat,
         //sumChar, та присвоїти їм значення суми свіх раніше створенних змінних відповідного типу.
 
         //3. Просумувати результат в змінну long result та результат вивести в консоль.
-        System.out.println((result1+" тут суми інтів, байтів, чарів,шортів і лонгів "));
-        System.out.println((result2)+ " тут дабли і флоати");
-        System.out.println(a1+" "+a2+" "+a3+" "+a4+" тут байти");
-        System.out.println(b1+" "+b2+" "+b3+" "+b4+" тут інти");
-        System.out.println(l1+" "+l2+" "+l3+" "+l4+" тут лонги");
-        System.out.println(s1+" "+s2+" "+s3+" "+s4+" тут шорти");
-        System.out.println(d1+" "+d2+" "+d3+" "+d4+" тут дабли");
-        System.out.println(f1+" "+f2+" "+f3+" "+f4+" тут флоати");
-        System.out.println(c1+" "+c2+" "+c3+" "+c4+" тут чари");
+        System.out.println((result1 + " тут суми інтів, байтів, чарів,шортів і лонгів "));
+        System.out.println((result2) + " тут дабли і флоати");
+        System.out.println(a1 + " " + a2 + " " + a3 + " " + a4 + " тут байти");
+        System.out.println(b1 + " " + b2 + " " + b3 + " " + b4 + " тут інти");
+        System.out.println(l1 + " " + l2 + " " + l3 + " " + l4 + " тут лонги");
+        System.out.println(s1 + " " + s2 + " " + s3 + " " + s4 + " тут шорти");
+        System.out.println(d1 + " " + d2 + " " + d3 + " " + d4 + " тут дабли");
+        System.out.println(f1 + " " + f2 + " " + f3 + " " + f4 + " тут флоати");
+        System.out.println(c1 + " " + c2 + " " + c3 + " " + c4 + " тут чари");
     }
 }
