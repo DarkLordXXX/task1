@@ -1,15 +1,13 @@
 package Lesson1;
 
+import java.util.Scanner;
+
 public class Homework2 {
     public static void main(String[] args) {
-        System.out.println(convertCelsiusToFahrenheit(1));
+        System.out.println(convertCelsiusToFahrenheit(100));
     }
     public static double convertCelsiusToFahrenheit(double celsius) {
-        //напишите тут ваш код
-        double TempFahrenheit = 300;
-        double TempCelcius = (TempFahrenheit - 32.0) * 5/9;
-        System.out.println(TempFahrenheit + " Фаренгейти");
-        System.out.println(TempCelcius + " Цельсії ");
-        return TempCelcius;
+        double TF = celsius * 5/9 + 32;
+        return TF;
     }
 }
