@@ -42,8 +42,8 @@ public class Homework1 {
         double result2 = sumDouble + sumFloat;
 
         //3. Просумувати результат в змінну long result та результат вивести в консоль.
-        System.out.println((result1 + " тут суми інтів, байтів, чарів,шортів і лонгів "));
-        System.out.println((result2) + " тут дабли і флоати");
+        System.out.println(result1 + " тут суми інтів, байтів, чарів,шортів і лонгів ");
+        System.out.println(result2 + " тут дабли і флоати");
         System.out.println(a1 + " " + a2 + " " + a3 + " " + a4 + " тут байти");
         System.out.println(b1 + " " + b2 + " " + b3 + " " + b4 + " тут інти");
         System.out.println(l1 + " " + l2 + " " + l3 + " " + l4 + " тут лонги");
