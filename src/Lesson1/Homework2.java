@@ -8,7 +8,7 @@ public class Homework2 {
     }
 
     public static double convertCelsiusToFahrenheit(double celsius) {
-        double TF = celsius * 5 / 9 + 32;
-        return TF;
+        double tF = celsius * 5 / 9 + 32;
+        return tF;
     }
 }
