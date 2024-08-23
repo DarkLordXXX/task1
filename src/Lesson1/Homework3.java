@@ -1,13 +1,15 @@
 package Lesson1;
 
+import java.util.Scanner;
+
 public class Homework3 {
     public static void main(String[] args) {
         // Дюйми в сантиметри, як в 4 завданні
-        System.out.println(convertInchesToCentimeters(100));
-    }
-
-    public static double convertInchesToCentimeters (double centimetres) {
-        double Inches = centimetres * 2.54;
-        return Inches;
+        System.out.println("Введіть дюйми : ");
+        Scanner scanner = new Scanner(System.in);
+        int inches = scanner.nextInt();
+        System.out.println(inches + " дюймів рівно");
+        double centimetres =  inches* 2.54;
+        System.out.println(centimetres+ "  сантиметрам");;
     }
 }
