@@ -13,7 +13,7 @@ public class home2 {
 
         String binary = Integer.toBinaryString(decimalNumber);  // Двійкова система
         String octal = Integer.toOctalString(decimalNumber);    // Восьмерична система
-        String hexadecimal = Integer.toHexString(decimalNumber).toUpperCase(); // Шістнадцяткова система
+        String hexadecimal = Integer.toHexString(decimalNumber); // Шістнадцяткова система
 
         System.out.println("Двійкове представлення: " + binary);
         System.out.println("Восьмеричне представлення: " + octal);
