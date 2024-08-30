@@ -11,7 +11,7 @@ public class home3 {
         if (b > a) {
             System.out.println("b, більше а");
         } else {
-            System.out.println("Тут кінець програми ...+ _ +");
+            System.out.println("a рівно b");
         }
     }
 }
