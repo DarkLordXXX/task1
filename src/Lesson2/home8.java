@@ -13,8 +13,8 @@ public class home8 {
         int reversedNumber = 0;
 
         while (number != 0) {
-            int secondNumber = number % 10;
-            reversedNumber = reversedNumber * 10 + secondNumber;
+            int digit = number % 10;
+            reversedNumber = reversedNumber * 10 + digit;
             number /= 10;
         }
         System.out.println("Число з перевернутими цифрами: " + reversedNumber);
