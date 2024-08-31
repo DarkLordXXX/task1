@@ -30,7 +30,7 @@ public class Homework1 {
 
 
         //2. Створити нові змінні int sumInt, sumByte, sumDouble, sumLong, sumShort, sumFloat,
-        //sumChar, та присвоїти їм значення суми свіх раніше створенних змінних відповідного типу.
+        //sumChar, та присвоїти їм значення суми всіх раніше створених змінних відповідного типу.
         int sumInt = a1 + a2 + a3 + a4;
         int sumByte = b1 + b2 + b3 + b4;
         long sumLong = l1 + l2 + l3 + l4;
@@ -40,7 +40,7 @@ public class Homework1 {
         float sumFloat = f1 + f4;
         long result1 = sumChar + sumByte + sumLong + sumInt + sumShort;
         double result2 = sumDouble + sumFloat;
-        double result3 = result1 + result2;
+        long result3 = result1 + (long)result2;//Тепер приймає як лонг.
 
         //3. Просумувати результат в змінну long result та результат вивести в консоль.
         System.out.println(result1 + " тут суми інтів, байтів, чарів,шортів і лонгів ");
