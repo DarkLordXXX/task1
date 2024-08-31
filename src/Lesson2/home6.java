@@ -1,5 +1,6 @@
 package Lesson2;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class home6 {
@@ -9,11 +10,12 @@ public class home6 {
 
         System.out.print("Введіть число для обчислення факторіалу: ");
         int number = scanner.nextInt();
-        long factorial = 1;
+        BigInteger factorial = BigInteger.ONE;
 
         for (int i = 1; i <= number; i++) {
-            factorial *= i;
+            factorial = factorial.multiply(BigInteger.valueOf(i));
         }
+
         System.out.println("Факторіал числа " + number + " дорівнює " + factorial);
     }
 }
