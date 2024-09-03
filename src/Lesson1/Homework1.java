@@ -40,7 +40,7 @@ public class Homework1 {
         float sumFloat = f1 + f4;
         long result1 = sumChar + sumByte + sumLong + sumInt + sumShort;
         double result2 = sumDouble + sumFloat;
-        long result3 = result1 + (long)result2;//Тепер приймає як лонг.
+        long result3 = result1 + (long) result2;//Тепер приймає як лонг.
 
         //3. Просумувати результат в змінну long result та результат вивести в консоль.
         System.out.println(result1 + " тут суми інтів, байтів, чарів,шортів і лонгів ");
