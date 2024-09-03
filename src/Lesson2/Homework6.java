@@ -3,7 +3,7 @@ package Lesson2;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-public class home6 {
+public class Homework6 {
     public static void main(String[] args) {
         //2 урок 6 завдання. Напишіть програму для знаходження факторіалу будь-якого числа, введеного з клавіатури.
         Scanner scanner = new Scanner(System.in);

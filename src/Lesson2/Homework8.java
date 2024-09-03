@@ -2,7 +2,7 @@ package Lesson2;
 
 import java.util.Scanner;
 
-public class home8 {
+public class Homework8 {
     public static void main(String[] args) {
         // 2 урок 8 завдання. Напишіть програму, яка пропонує користувачеві ввести ціле число, а потім виводить число з
         // перевернутими цифрами. Наприклад, якщо введено 12345, вихід має бути 54321.
