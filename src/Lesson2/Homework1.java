@@ -1,6 +1,6 @@
 package Lesson2;
 
-public class home1 {
+public class Homework1 {
     public static void main(String[] args) {
         //2 урок 1 завдання. Напишіть програму на Java для друку суми додавання, множення, віднімання, ділення та
         //залишку двох чисел.
