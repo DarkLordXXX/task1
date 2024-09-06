@@ -1,17 +1,15 @@
 package Lesson2;
 
+import java.util.Scanner;
+
 public class Homework3 {
     public static void main(String[] args) {
-        //2 урок 3 завдання.Напишіть програму для порівняння двох чисел.
-        float a = 123.23f;
-        float b = 23.23f;
-        if (a > b) {
-            System.out.println("a, більше b");
-        }
-        if (b > a) {
-            System.out.println("b, більше а");
-        } else {
-            System.out.println("a рівно b");
-        }
+        // Дюйми в сантиметри, як в 4 завданні
+        System.out.println("Введіть дюйми : ");
+        Scanner scanner = new Scanner(System.in);
+        double inches = scanner.nextDouble();
+        System.out.println(inches + " дюймів рівно");
+        double centimetres = inches * 2.54;
+        System.out.println(centimetres + "  сантиметрам");
     }
 }
