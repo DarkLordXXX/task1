@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Homework5 {
     public static void main(String[] args) {
-        //2 урок 5 завдання. Напишіть програму для обчислення суми цифр цілого числа
+        //2 урок 5 завдання. Напишіть програму для обчислення суми цифр цілого числа.
 
         int number, digit, sum ;
         sum = 0;
