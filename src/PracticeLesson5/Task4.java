@@ -2,7 +2,7 @@ package PracticeLesson5;
 
 import java.util.Scanner;
 
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         //5.4. Написати програму Java яка отримує 1-число типу int як переданий параметр. Знайти суму цифр цього
         //числа, результат вивести в консоль.

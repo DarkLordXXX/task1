@@ -2,9 +2,7 @@ package PracticeLesson5;
 
 import java.util.Scanner;
 
-import static java.lang.Integer.sum;
-
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         //5.1. Написати програму Java яка отримує n- чисел типу int як передані параметри. Порахувати їх суму,
         //результат вивести в консоль.

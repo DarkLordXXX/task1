@@ -2,9 +2,7 @@ package PracticeLesson5;
 
 import java.util.Scanner;
 
-import static java.lang.Integer.sum;
-
-public class task3 {
+public class Task3 {
     public static void main(String[] args) {
         //5.3. Написати програму Java яка отримує 2-числа типу int як передані параметри. Знайти найбільший
         //спільний дільник , результат вивести в консоль.

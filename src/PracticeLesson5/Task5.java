@@ -2,7 +2,7 @@ package PracticeLesson5;
 
 import java.util.Scanner;
 
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         //Написати програму Java яка отримує 1-число типу int як переданий параметр. Програма виводить
         //запрошену кількість простих чисел в консоль через пробіл.
