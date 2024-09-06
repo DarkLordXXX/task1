@@ -17,5 +17,7 @@ public class Exercise_04_02 {
             sum += i;
         }
         System.out.println("Сума чисел від 1 до " + num + " дорівнює " + sum);
+
+        scanner.close();
     }
 }
