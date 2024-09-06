@@ -2,7 +2,7 @@ package Lesson3;
 
 import java.util.Scanner;
 
-public class Homework_02_03 {
+public class Homework_03_03 {
     public static void main(String[] args) {
         //2 урок 3 завдання.Напишіть програму для порівняння двох чисел.
         System.out.println("Дана програма призначається для порівння чисел введених з клавіатури.");

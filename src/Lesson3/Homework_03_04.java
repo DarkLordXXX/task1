@@ -1,6 +1,6 @@
-package Lesson2;
+package Lesson3;
 
-public class home4 {
+public class Homework_03_04 {
     public static void main(String[] args) {
         //2 урок 4 завдання. Напишіть програму для обчислення суми перших 10 натуральних чисел.
         int i, sum = 0;
@@ -10,4 +10,3 @@ public class home4 {
         System.out.println("Sum of First 10 Natural Numbers is = " + sum);
     }
 }
-
