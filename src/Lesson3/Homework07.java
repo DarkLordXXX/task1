@@ -2,7 +2,7 @@ package Lesson3;
 
 import java.util.Scanner;
 
-public class Homework_03_07 {
+public class Homework07 {
     public static void main(String[] args) {
         //2.7 урок. Напишіть програму для обчислення відстані між двома точками на поверхні землі.
         Scanner scanner = new Scanner(System.in);

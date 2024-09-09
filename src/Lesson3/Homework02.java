@@ -2,7 +2,7 @@ package Lesson3;
 
 import java.util.Scanner;
 
-public class Homework_03_02 {
+public class Homework02 {
     public static void main(String[] args) {
         //2.урок 2 завдання. Напишіть програму на Java для перетворення десятирічного числа у
         //восьмирічне, двійкове,шістнадцятирічне.

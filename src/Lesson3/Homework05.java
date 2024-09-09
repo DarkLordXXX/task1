@@ -2,7 +2,7 @@ package Lesson3;
 
 import java.util.Scanner;
 
-public class Homework_03_05 {
+public class Homework05 {
     public static void main(String[] args) {
         //2 урок 5 завдання. Напишіть програму для обчислення суми цифр цілого числа.
 
