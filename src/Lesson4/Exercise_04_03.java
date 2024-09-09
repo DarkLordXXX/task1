@@ -8,7 +8,7 @@ public class Exercise_04_03 {
         int length = array.length;
         int sum = 0;
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < length; i++) {
             sum += array[i];
         }
 
