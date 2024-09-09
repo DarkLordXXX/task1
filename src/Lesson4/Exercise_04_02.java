@@ -12,12 +12,14 @@ public class Exercise_04_02 {
         if (num <= 0) {
             System.out.println("Введене число має бути більше за 0.");
         }
-        int sum = 0;
-        for (int i = 1; i <= num; i++) {
-            sum += i;
-        }
-        System.out.println("Сума чисел від 1 до " + num + " дорівнює " + sum);
+        if (num > 0) {
+            int sum = 0;
+            for (int i = 1; i <= num; i++) {
+                sum += i;
+            }
+            System.out.println("Сума чисел від 1 до " + num + " дорівнює " + sum);
 
-        scanner.close();
+            scanner.close();
+        }
     }
 }
