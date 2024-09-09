@@ -8,10 +8,10 @@ public class Exercise_04_06 {
         //значення масиву.
         System.out.println("Введіть довжину масиву : ");
         Scanner scanner = new Scanner(System.in);
-        int user_num = scanner.nextInt();
+        int theLengthOfTheArray = scanner.nextInt();//userNum
 
-        short[] nums = new short[user_num];
-        for (int i = 0; i < user_num; i++) {//for (short num : nums)
+        short[] nums = new short[theLengthOfTheArray];
+        for (int i = 0; i < theLengthOfTheArray; i++) {//for (short num : nums)
             System.out.println("Введіть елемент " + (i + 1) + " :");
             nums[i] = scanner.nextShort();
         }
@@ -21,14 +21,14 @@ public class Exercise_04_06 {
             if (num > max_num)          //if (num > max_num)
                 max_num = num;          //max_num = num;
         }
-        for (int i = 0; i < user_num; i++) {
+        for (int i = 0; i < theLengthOfTheArray; i++) {
             if (nums[i] > max_num)
                 max_num = nums[i];
         }
         System.out.println("Максимальний елемент :" + max_num);
 
         short min_num = nums[0];                //short min_num = nums[0];
-        for (int i = 0; i < user_num; i++) {    //for (short num : nums) {
+        for (int i = 0; i < theLengthOfTheArray; i++) {    //for (short num : nums) {
             if (nums[i] < min_num)              //if (num < min_num)
                 min_num = nums[i];              // min_num = num;
         }
