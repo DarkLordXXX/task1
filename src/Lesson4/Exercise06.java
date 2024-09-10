@@ -1,5 +1,6 @@
 package Lesson4;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercise06 {
@@ -34,9 +35,8 @@ public class Exercise06 {
         }
         System.out.println("Мінімальний елемент :" + minNum);
 
-        for (int i = 0; i < nums.length; i++) {
-            System.out.println(nums[i]);
-        }
+        System.out.println("Елементи масиву: " + Arrays.toString(nums));
+
         scanner.close();
     }
 }
