@@ -2,9 +2,9 @@ package Lesson6;
 
 import java.util.Scanner;
 
-public class Exercise_06_02  {
+public class Circe {
     public static void main(String[] args) {
-        //2) Створити клас коло з полями, радіус, та константа PI. Додати методи обчислення площі, периметру.
+        //6.2) Створити клас коло з полями, радіус, та константа PI. Додати методи обчислення площі, периметру.
         System.out.println("Вважай що коло створено");
         Scanner sc = new Scanner(System.in);
         System.out.println("Програма сама обрахує площу за формулою (area = P * r2;)");
