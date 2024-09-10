@@ -2,7 +2,7 @@ package Lesson3;
 public class Homework01 {
     public static void main(String[] args) {
         //2 урок 1 завдання. Напишіть програму на Java для друку суми додавання, множення, віднімання, ділення та
-        //залишку двох чисел.
+        //залишку двох чисел..
         int a1 = 101;
         int a2 = 10;
         int addition = a1 + a2;
