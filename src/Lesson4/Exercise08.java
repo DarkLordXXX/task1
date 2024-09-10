@@ -2,7 +2,7 @@ package Lesson4;
 
 import java.util.Arrays;
 
-public class Exercise_04_08 {
+public class Exercise08 {
     public static void main(String[] args) {
         //8) Напишіть програму на Java для пошуку спільних елементів між двома масивами цілих чисел
         int[] array1 = {1, 2, 5, 5, 8, 9, 7, 10};

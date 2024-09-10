@@ -2,7 +2,7 @@ package Lesson4;
 
 import java.util.Arrays;
 
-public class Exercise_04_05 {
+public class Exercise05 {
     public static void main(String[] args) {
         //5) Напишіть програму на Java для видалення певного елемента з масиву.
         int[] myArray = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};//myArray

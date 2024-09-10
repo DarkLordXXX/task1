@@ -1,6 +1,6 @@
 package Lesson4;
 
-public class Exercise_04_03 {
+public class Exercise03 {
     public static void main(String[] args) {
         //3) Написати програму на Java для обчислення середнього значення елементів масиву
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
