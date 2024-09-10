@@ -2,7 +2,7 @@ package Lesson6;
 
 import java.util.Scanner;
 
-public class Point_06_04 {
+public class Point {
     public static void main(String[] args) {
         //4) Створити клас Point з полями X, Y та методом підрахунку відстані з іншим об'єктом даного типу.
         Scanner scanner = new Scanner(System.in);

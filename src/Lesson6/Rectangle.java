@@ -2,7 +2,7 @@ package Lesson6;
 
 import java.util.Scanner;
 
-public class Exercise_06_01 {
+public class Rectangle {
     public static void main(String[] args) {
         //1) Створити клас прямокутник з полями довжина, ширина. Додати методи обчислення площі, периметру.
         System.out.println("Вважай що прямокутник створено");

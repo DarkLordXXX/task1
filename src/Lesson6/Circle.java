@@ -2,7 +2,7 @@ package Lesson6;
 
 import java.util.Scanner;
 
-public class Exercise_06_02  {
+public class Circle {
     public static void main(String[] args) {
         //2) Створити клас коло з полями, радіус, та константа PI. Додати методи обчислення площі, периметру.
         System.out.println("Вважай що коло створено");

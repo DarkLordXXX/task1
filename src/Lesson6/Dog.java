@@ -1,6 +1,6 @@
 package Lesson6;
 
-public class Dog_06_03 {
+public class Dog {
 
             private double weight;
             private int age;
@@ -8,7 +8,7 @@ public class Dog_06_03 {
 
             private String breed;
 
-            public Dog_06_03(String name, int age, double weight, String breed) {
+            public Dog(String name, int age, double weight, String breed) {
                 this.name = name;
                 this.age = age;
                 this.weight = weight;
