@@ -8,10 +8,7 @@ public class Exercise10 {
         int[]array1 = { 30, 25, 40 };
         int[]array2 = { 30, 25, 40 };
 
-        // зберегти результат незалежно від того, чи є рівні два масиви
-        boolean result = Arrays.equals(array1, array2);
-
-        if (result) {
+        if (Arrays.equals(array1, array2)) {
             System.out.println("Два масиви рівні");
         }
         else {
