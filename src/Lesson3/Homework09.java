@@ -11,7 +11,7 @@ public class Homework09 {
             int a = i / 100;
             int b = i / 10 % 10;
             int c = i % 10;
-            double numberOfArmstrong = ((a * a * a) + (b * b * b) + (c * c * c));
+            double numberOfArmstrong = (a * a * a) + (b * b * b) + (c * c * c);
             if (numberOfArmstrong == i) {
                 System.out.println("Це число Армстронга " + i + " == " + numberOfArmstrong);
             }
