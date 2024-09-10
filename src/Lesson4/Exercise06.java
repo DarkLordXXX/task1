@@ -8,7 +8,7 @@ public class Exercise06 {
         //значення масиву.
         System.out.println("Введіть довжину масиву : ");
         Scanner scanner = new Scanner(System.in);
-        int theLengthOfTheArray = scanner.nextInt();//userNum
+        int theLengthOfTheArray = scanner.nextInt();
 
         short[] nums = new short[theLengthOfTheArray];
         for (int i = 0; i < theLengthOfTheArray; i++) {//for (short num : nums)
@@ -17,9 +17,9 @@ public class Exercise06 {
         }
 
         short maxNum = nums[0];
-        for (short num : nums) {        //for (short num : nums) {
-            if (num > maxNum)          //if (num > maxNum)
-                maxNum = num;          //maxNum = num;
+        for (short num : nums) {
+            if (num > maxNum)
+                maxNum = num;
         }
         for (int i = 0; i < theLengthOfTheArray; i++) {
             if (nums[i] > maxNum)
@@ -27,16 +27,16 @@ public class Exercise06 {
         }
         System.out.println("Максимальний елемент :" + maxNum);
 
-        short minNum = nums[0];                //short minNum = nums[0];
+        short minNum = nums[0];
         for (int i = 0; i < theLengthOfTheArray; i++) {    //for (short num : nums) {
-            if (nums[i] < minNum)              //if (num < minNum)
-                minNum = nums[i];              // minNum = num;
+            if (nums[i] < minNum)
+                minNum = nums[i];
         }
         System.out.println("Мінімальний елемент :" + minNum);
 
-        for (int i = 0; i < nums.length; i++) {//for (short num : nums) {
-            System.out.println(nums[i]);// System.out.println(num);
-        }                               //}
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        }
         scanner.close();
     }
 }
