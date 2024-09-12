@@ -9,11 +9,13 @@ public class Exercise05 {
 
         System.out.println("Оригінальний масив : " + Arrays.toString(myArray));
         int removeIndex = 1;
+        int[] newArray = new int[myArray.length - 1];
 
-        for (int i = removeIndex; i < myArray.length - 1; i++) {
-            myArray[i] = myArray[i + 1];
+        for (int i = 0, j = 0; i < myArray.length; i++) {// j відовідає за новий масив.
+            if (i != removeIndex) {
+                newArray[j++] = myArray[i];
+            }
         }
-
-        System.out.println("Після видалення другого елемента: " + Arrays.toString(myArray));
+        System.out.println("Після видалення другого елемента: " + Arrays.toString(newArray));
     }
 }
