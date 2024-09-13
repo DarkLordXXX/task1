@@ -30,4 +30,4 @@ public class TestAnimal {
         System.out.println(Piton.getRun() + " км/год");
     }
 }
-//На чому будується Арай ліст?
+
