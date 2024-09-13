@@ -13,7 +13,7 @@ public class Homework03 {
         if (a > b) {
             System.out.println("a, більше b");
         }
-        if (b > a) {
+        else if (b > a) {
             System.out.println("b, більше а");
         } else {
             System.out.println("a рівно b");
