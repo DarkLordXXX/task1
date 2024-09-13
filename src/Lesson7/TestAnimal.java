@@ -2,8 +2,6 @@ package Lesson7;
 
 public class TestAnimal {
     public static void main(String[] args) {
-
-
         Animal Horse = new Animal("Кінь", "їсть сіно", "І-го-І-го", "деколи спить", 10);
         Animal Lion = new Animal("Лев", "їсть м'єсо", "Роар", "деколи спить", 60);
         Animal Mouse = new Animal("Миша", "їсть зерно", "Скві", "деколи спить", 5);
