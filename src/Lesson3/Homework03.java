@@ -9,7 +9,7 @@ public class Homework03 {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
         System.out.println("Введіть 2 число : ");
-        double b= scanner.nextDouble();
+        double b = scanner.nextDouble();
         if (a > b) {
             System.out.println("a, більше b");
         }
