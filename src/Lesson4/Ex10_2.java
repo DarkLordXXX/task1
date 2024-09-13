@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Exercise10 {
+public class Ex10_2 {
     public static void main(String[] args) {
         //4.10) Напишіть програму на Java для перевірки рівності двох масивів. (двомірних)
         int[] array1 = {72, 48, 69, 92, 10, 68, 48, 33, 88, 86, 58, 29, 48, 57, 79, 95, 97, 1, 50, 42, 21, 99, 0, 87, 84};
